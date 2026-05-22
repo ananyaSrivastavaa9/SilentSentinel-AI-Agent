@@ -3,7 +3,6 @@ import numpy as np
 import librosa
 import time
 
-# --- HACKATHON PROTOCOLS & CONFIGURATION ---
 SAMPLE_RATE = 22050     # Standard audio processing sample rate
 BLOCK_SIZE = 22050      # 1 full second of audio per processing window
 ENERGY_THRESHOLD = 0.05 # Minimum volume to wake up processing
